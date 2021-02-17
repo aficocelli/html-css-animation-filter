@@ -22,11 +22,22 @@
 }
 /* /ex 2 */
 
+/* ex 3 */
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+.ex-3-square:hover{
+    animation: circle 5s;
+}
+@keyframes circle {
+    0% { border-radius:none; }
+    50% { border-radius:50px; }
+    100% { border-radius:100px; }
+}
+
+/* /ex 3 */
 .ex-4-square {
     width: 100px;
     height: 100px;
