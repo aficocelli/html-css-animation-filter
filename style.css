@@ -204,10 +204,10 @@
 }
 @keyframes button-effect-top-13 {
     0% {top: -10px; left: 10%;}
-    25% {top: -10px; left:100%;}
-    50% {top: 50px; left:100%;}
-    75% {top: 50px; left: -20%;}
-    100% {top: -10px; left:-20%;}
+    50% {top: -10px; left:100%;}
+    75% {top: 50px; left:100%;}
+    100% {top: 50px; left: 49%;}
+
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
@@ -216,9 +216,9 @@
 }
 @keyframes button-effect-bottom-13 {
   0% {bottom: -10px; right: 20%;}
-  25% {bottom: -10px; right:100%;}
-  50% {bottom: 50px; right:100%;}
-  75% {bottom: 50px; right:0;}
-  100% {bottom: -10px; right:0;}
+  50% {bottom: -10px; right:100%;}
+  75% {bottom: 50px; right:100%;}
+  100% {bottom: 50px; right:59%;}
+
 
 /* /ex 13 */
