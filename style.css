@@ -36,13 +36,23 @@
     50% { border-radius:50px; }
     100% { border-radius:100px; }
 }
-
 /* /ex 3 */
+
+/* ex 4 */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    animation: disappear 5s infinite;
 }
+@keyframes disappear {
+    0% { opacity: 0; }
+    25% { opacity: 0.5; }
+    50% { opacity: 1; }
+    75% { opacity: 0.5; }
+    100% { opacity: 0; }
+}
+/* /ex 4 */
 .ex-5-square {
     margin: 20px;
     width: 60px;
