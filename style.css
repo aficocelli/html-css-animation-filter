@@ -124,9 +124,23 @@
   100% {transform: rotate(360deg);}
 }
 /* /ex 10 */
+
+/* ex 11 */
 .ex-11-icon {
     font-size: 60px;
+    animation: loop-alternative 4s infinite;
+    animation-timing-function: linear;
 }
+@keyframes loop-alternative {
+  0% {transform: rotate(0deg);}
+  10% {transform: rotate(45deg);}
+  20% {transform: rotate(90deg);}
+  40% {transform: rotate(180deg);}
+  60% {transform: rotate(270deg);}
+  80% {transform: rotate(90deg);}
+  100% {transform: rotate(0deg);}
+}
+/* /ex 11 */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
