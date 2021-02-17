@@ -98,10 +98,18 @@
 }
 /* /ex 8 */
 
+/* ex 9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: filter 3s, border-radius 3s, transform 5s;
 }
+.ex-9-img:hover{
+    filter:grayscale(1);
+    border-radius:20px;
+    transform: scale(1.2);
+}
+/* /ex 9 */
 .ex-10-icon {
     font-size: 60px;
 }
